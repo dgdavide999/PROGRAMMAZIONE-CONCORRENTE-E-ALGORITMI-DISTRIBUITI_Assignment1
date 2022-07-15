@@ -1,3 +1,5 @@
+<i>data progetto: 15 aprile 2022</i>
+
 # PCAD 2021-22, Foglio 1: Architetture e parallelismo
 
 Un modo molto semplice di parallelizzare calcoli su matrici è basato sulla decomposizioni in
