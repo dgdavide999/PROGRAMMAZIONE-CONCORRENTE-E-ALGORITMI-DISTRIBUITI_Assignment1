@@ -6,7 +6,8 @@ Ad es. consideriamo una matrice A (M x N) e un vettore V (N x 1).<br>
 Nella decomposizione per righe la matrice A si divide in T blocchi di R righe (M=TxR)<br>
 Ogni blocco RxN si può quindi moltiplicare per V ottenendo un nuovo vettore R x 1<br>
 Concatenando i T vettori risultanti (vedi figura sotto) otteniamo il vettore A x V (M x 1).<br>
-<brA
+
+<img src="./parallelizzazione_es.png" alt="immagine matrice divisa per thread"><br>
 Nel caso di prodotto di matrice per matrice l’applicazione della decomposizione produce R
 righe della matrice risultante.<br>
 Lo scopo dell’esercizio è quello di scrivere un programma C con la libreria pthread per
@@ -29,3 +30,7 @@ parte di calcolo e dopo la seconda decomposizione completare il calcolo.<br>
 Fate in modo che sia possibile configurare il numero di blocchi delle due decomposizioni in
 maniera da misurare l’eventuale aumento di performance al variare del numero di thread.<br>
 Per analizzare i tempi di esecuzione potete usare le funzioni della libreria “time.h”.
+
+
+### Risultato
+<img src="./output.png" alt="immagine matrice divisa per thread"><br>
